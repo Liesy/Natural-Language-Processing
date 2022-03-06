@@ -15,6 +15,8 @@
 
 ### Experiment Content
 
+[submit](https://icloud.qd.sdu.edu.cn:7777/link/928B36E8072A8C857687200257746BE7)
+
 #### exp1 语言模型
 
 1. 用python编程实践语言模型（uni-gram和bi-gram）,加入平滑技术。
