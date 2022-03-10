@@ -30,3 +30,16 @@
    >
    > What kind of account do you prefer ? Checking account or savings account ? \_\_eou\_\_ I would like to open a checking account . \_\_eou\_\_Ok , please just fill out this form and show us your ID card .\_\_eou\_\_ Here you are . \_\_eou\_\_``
 
+#### exp2 分词
+
+1. 利用给定的中英文文本序列(Chinese.txt and English.txt)，分别利用以下给定的中英文分词工具进行分词并对不同分词工具产生的结果进行简要对比分析。
+2. 中文分词工具
+   - Jieba(重点)，尝试三种分词模式与自定义词典功能
+   - SnowNLP
+   - THULAC
+   - NLPIR
+   - StanfordCoreNLP
+3. 英文分词工具
+   - NLTK
+   - SpaCy
+   - StanfordCoreNLP
