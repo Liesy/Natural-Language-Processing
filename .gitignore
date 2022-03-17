@@ -4,4 +4,14 @@
 
 *.pdf
 
+*.png
+
+*.bz2
+
 report
+
+__pycache__
+
+参考
+
+tookit

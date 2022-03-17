@@ -43,3 +43,9 @@
    - NLTK
    - SpaCy
    - StanfordCoreNLP
+
+#### exp3 词性标注
+
+1. 利用 Chinese.txt 和 English.txt 的中英文句子，在实验二的基础上，继续利用以下给定的中英文工具进行词性标注。并对不同工具产生的结果进行简要对比分析。
+
+2. 使用python编程实践CRF，进行词性标注。该实验基于python3.6以及keras训练bi-lstm,结合CRF来实现词性标注。
