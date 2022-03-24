@@ -49,3 +49,32 @@
 1. 利用 Chinese.txt 和 English.txt 的中英文句子，在实验二的基础上，继续利用以下给定的中英文工具进行词性标注。并对不同工具产生的结果进行简要对比分析。
 
 2. 使用python编程实践CRF，进行词性标注。该实验基于python3.6以及keras训练bi-lstm,结合CRF来实现词性标注。
+
+#### exp4 命名实体识别
+
+1. 利用 Chinese.txt 和 English.txt 的中英文句子，在实验二的基础上，继续利用以下给定的中英文工具进行命名实体识别。
+
+2. 使用BERT + Bi-LSTM + CRF 实践命名实体识别。
+
+> 1. model parameters
+> 
+> 在./experiments/clue/config.json中设置了Bert模型的基本参数，
+> 而在./pretrained\_bert\_models下的预训练文件夹中，config.json除了设置Bert的基本参数外，
+> 还设置了LSTM参数，可根据需要进行更改。
+> 
+> 2. other parameters
+> 
+> 环境路径以及其他超参数在./config.py中进行设置。
+>
+> 3. run
+>
+> python run.py
+>
+> 模型运行结束后，最优模型和训练log保存在./experiments/clue/路径下。在测试集中的bad case保存在./case/bad\_case.txt中。
+> 如要重新运行模型，请先将train.log移出当前路径，以免覆盖。
+
+#### exp5 词向量
+
+1. OneHot编码。```从one-hot编码结果来看，one-hot编码的缺点是什么？```
+
+2. Word2vec词向量训练。

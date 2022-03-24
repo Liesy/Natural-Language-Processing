@@ -8,6 +8,8 @@
 
 *.bz2
 
+*.bin
+
 report
 
 __pycache__
@@ -15,3 +17,6 @@ __pycache__
 参考
 
 tookit
+
+exp4/Chinese.txt
+exp4/English.txt
